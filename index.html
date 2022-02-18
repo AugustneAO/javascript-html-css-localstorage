@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript + Html & Css + LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="error">
+    <div class="dic-flex">
+    <div class="divMain">
+        <h1>Javascrip + Html && Css + LocalStorage</h1>
+        Sua pontuação: <b id="pontucao">0</b> <br>
+        Pontos acumulados: <b id="total"></b><br>
+        Mensagem: <b id="messange"></b>  <b id="sms"></b>
+        <div class="divForm">
+            <form name="meuForm">
+                <label>Insere o primeiro número </label><br>
+                <input name="num1" type="number" placeholder="Primeiro número"><br>
+                <label>Insere o segundo número </label><br>
+                <input name="num2" type="number" placeholder="Segundo número"><br>
+                <label>Qual operação? <strong> "(/, +, *, -)" </strong> </label><br>
+                <input name="operacao" type="text" placeholder="Insere a operação ">
+                <br>
+                <label>Qual será o resultado?</label><br>
+                <input name="advinha" type="number" placeholder="Resultado"><br>
+
+                <input onclick="verificarResultado()" type="button" value="Verificar resultado"><br>
+                <input onclick="reiniciar()" type="button" value="Reiniciar">
+            </form>
+        </div>
+    </div>
+
+    <div class="divSideTotal">
+        <b style="font-size: 7em" id="bigTotal">00</b>
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

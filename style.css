@@ -1,0 +1,47 @@
+body {
+    background: rgba(114, 0, 31, 0.768);
+}
+
+.divMain {
+    margin-left: 3em;
+    text-align: left;
+}
+
+.dic-flex{
+    display: flex;
+    align-items: center;
+}
+
+form {
+
+    margin-top: 6px;
+}
+
+input {
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: rgb(238, 238, 238);
+    outline: none;
+    
+   
+    
+}
+.input-field input{
+    margin-left: 2em;
+}
+input:focus{
+    outline: 1px solid blue;
+}
+
+input::placeholder{
+    color: rgb(175, 175, 175);
+}
+
+
+.divSideTotal{
+    border: 1px solid;
+    border-radius: 6px;
+    width: 30%;
+    height: 100%;
+    text-align:center
+}
